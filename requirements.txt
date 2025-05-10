@@ -17,5 +17,5 @@ fastapi
 python-multipart
 uvicorn
 jinja2
-imblearncode
+imbalanced-learn
 -e .

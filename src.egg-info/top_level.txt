@@ -1,3 +1,5 @@
 config
+logs
+notebook
 src
-vehicle
+venv
