@@ -1,4 +1,6 @@
-# # below code is to check the logging config
+from src.components.data_validation import DataValidation
+
+# below code is to check the logging config
 # from src.logger import logging
 
 # logging.debug("This is a debug message.")
@@ -22,7 +24,7 @@
 
 # --------------------------------------------------------------------------------
 
-# from src.pipline.training_pipeline import TrainPipeline
+from src.pipline.training_pipeline import TrainPipeline
 
-# pipline = TrainPipeline()
-# pipline.run_pipeline()
+pipline = TrainPipeline()
+pipline.run_pipeline()
